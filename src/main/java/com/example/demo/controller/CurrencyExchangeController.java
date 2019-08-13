@@ -20,4 +20,8 @@ public class CurrencyExchangeController {
 
         return result;
     }
+    //TODO:
+    // klasa Service- kontakt z NBP
+    // Feign- jak korzystać z tego poprzez Boota, aby skontaktować się z NBP i wyciągnąć dane z URL
+    // Service będzie wstrzyknięty do Controllera
 }
